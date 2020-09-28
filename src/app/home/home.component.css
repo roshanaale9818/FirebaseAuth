@@ -1,0 +1,33 @@
+* {
+    color: #ffffff;
+}
+
+.heading h1 {
+    font-size: 54px;
+}
+
+.home-content {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    display: block;
+    padding: 20px;
+    background: darkblue;
+    height: 100vh;
+}
+
+.userName {
+    padding: 10px;
+}
+
+.logoutBtn {
+    cursor: pointer;
+    background: darkred;
+    padding: 10px 20px;
+    border: none;
+}
+
+.logoutBtn:focus {
+    border: none;
+    outline: none;
+}

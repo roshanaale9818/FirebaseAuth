@@ -1,0 +1,44 @@
+<!-- wrapper for whole divs starts here -->
+<div class="wrapper">
+    <!-- login wrap starts here  -->
+    <div class="login-wrap">
+
+        <!-- login-content starts here  -->
+        <div class="login-content">
+            <!-- heading for login  -->
+            <div class="login-heading">
+                <h1>Log-in</h1>
+            </div>
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
+                <div class="form-group">
+                    <input type="email" formControlName="email" name="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" formControlName="password" name="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="button-wrap">
+                    <button type="submit" class="submitButton">login</button>
+                </div>
+            </form>
+
+            <!-- option starts  -->
+            <div class="login-option">
+                <span class="login-option-text">Or</span>
+
+                <div class="signup-button-wrap">
+                    <button [routerLink]="['/register-user']" routerLinkActive="router-link-active" class="signUp-button">Signup</button>
+                </div>
+                <div class="pargraph">
+                    <p>
+                        Use email: admin@admin.com password: password for admin role.
+                    </p>
+                </div>
+            </div>
+            <!-- option ends  -->
+        </div>
+        <!-- login content ends here -->
+
+    </div>
+    <!-- login wrap ends here -->
+</div>
+<!-- wrapper for whole divs ends here  -->

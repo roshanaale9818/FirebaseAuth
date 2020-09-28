@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.login-wrap {
+    padding-top: 30px;
+    background: #eeeeee;
+    height: 100vh;
+}
+
+.login-content {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 4px;
+}
+
+.login-heading h1 {
+    font-size: 54px;
+    font-weight: 400;
+    font-style: bold;
+    text-align: center;
+}
+
+.form-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-control {
+    width: 300px;
+    height: 30px;
+    border-radius: 0px;
+    font: 18px;
+    padding: 10px;
+}
+
+.button-wrap {
+    margin-top: 20px;
+}
+
+.submitButton {
+    cursor: pointer;
+    width: 324px;
+    padding: 16px;
+    display: block;
+    margin: 0 auto;
+    background: darkblue;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+}
+
+.submitButton:hover {
+    opacity: 0.8;
+}
+
+.signup-button-wrap {
+    margin-top: 10px;
+}
+
+.signUp-button {
+    cursor: pointer;
+    width: 324px;
+    font-size: 14px;
+    padding: 16px;
+    display: block;
+    margin: 0 auto;
+    background: darkblue;
+    color: #ffffff;
+    border: none;
+}
+
+.signUp-button:hover {
+    opacity: 0.8;
+}
+
+.login-option-text {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 14px;
+    border: 2px solid #000000;
+}
+
+.login-bottom {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.login-bottom ul li a {
+    text-decoration: none;
+}
+
+.login-bottom ul li a:hover {
+    opacity: 0.8;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+
+/* repsonive design  */

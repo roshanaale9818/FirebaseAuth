@@ -1,0 +1,58 @@
+.userRegisterContent {
+    width: 550px;
+    background: #bbbbbb;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+}
+
+.heading h1 {
+    font-size: 36px;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.registerBtn {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 16px;
+    background: darkgreen;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    transition: all linear 0.4s;
+}
+
+.registerBtn:hover {
+    opacity: 0.9;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .userRegisterContent {
+        width: 100%;
+    }
+}
